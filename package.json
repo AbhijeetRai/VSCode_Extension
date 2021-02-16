@@ -1,0 +1,23 @@
+{
+    "name": "c2w-theme",
+    "displayName": "Core2Web",
+    "description": "A vibrant color theme",
+    "version": "1.0.0",
+    "publisher": "AbhijeetRai",
+    "icon": "media/logo.png",
+    "engines": {
+        "vscode": "^1.53.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Core2Web Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Core2Web Theme-color-theme.json"
+            }
+        ]
+    }
+}
